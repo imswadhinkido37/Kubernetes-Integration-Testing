@@ -81,7 +81,53 @@ During the testing process, the following was observed:
 - The application returned the expected greeting message, confirming successful integration between the frontend and backend services.
 - All test assertions passed without any errors, demonstrating the reliability of the communication between components.
 
-## Conclusion
 
-The integration testing task has been successfully completed. The frontend application is correctly receiving data from the backend service, as verified by the Selenium automation tests. Further enhancements can be made by adding more test cases and edge scenarios to ensure comprehensive coverage.
+# Problem Statement 2: QA Automation Scripts
+
+This project includes three scripts aimed at monitoring and analyzing system performance and application health. The scripts developed are:
+
+1. **System Health Monitoring Script**
+2. **Log File Analyzer**
+3. **Application Health Checker**
+
+### 1. System Health Monitoring Script
+
+This Python script monitors the health of a Linux system by checking CPU usage, memory usage, disk space, and running processes. If any of these metrics exceed predefined thresholds (e.g., CPU usage > 80%), the script sends an alert to the console and logs the information.
+
+#### Key Features:
+- Monitors CPU usage and logs warnings if usage exceeds 80%.
+- Checks memory usage and logs warnings for high memory consumption.
+- Lists the number of running processes and logs this information.
+
+### 2. Log File Analyzer
+
+This Python script analyzes web server logs (e.g., Apache, Nginx) for common patterns. It identifies the number of `404` errors, the most requested pages, and the IP addresses with the most requests.
+
+#### How to Test:
+As there wasn’t a log file available, you can create a sample log file to test this script. Follow these steps:
+
+1. Open a text editor (like Notepad).
+2. Copy and paste the following sample log entries into the editor:
+
+   ```
+   127.0.0.1 - - [24/Apr/2023:13:26:29 +0000] "GET /index.html HTTP/1.1" 200 2326
+   127.0.0.1 - - [24/Apr/2023:13:26:30 +0000] "GET /about.html HTTP/1.1" 404 732
+   127.0.0.1 - - [24/Apr/2023:13:26:31 +0000] "GET /index.html HTTP/1.1" 200 2326
+   192.168.1.1 - - [24/Apr/2023:13:26:32 +0000] "GET /index.html HTTP/1.1" 200 2326
+   ```
+
+3. Save the file as `access.log` in the `C:\Users\Avi00\Desktop\QA` directory.
+
+### 3. Application Health Checker
+
+This script checks the uptime of a specified application by sending HTTP requests and analyzing the response status codes. It determines if the application is 'up' (functioning correctly) or 'down' (unavailable).
+
+**Note**: This script is working, but I had to forward the URL for testing purposes, so I couldn't attach the results here.
+
+### Conclusion
+
+The scripts provide valuable tools for monitoring system health and analyzing web server logs, contributing to improved performance and reliability in software applications. Additionally, the integration testing task has been successfully completed, with the frontend application correctly receiving data from the backend service as verified by the Selenium automation tests. Further enhancements can be made by adding more test cases and edge scenarios to ensure comprehensive coverage. Feel free to explore and modify the scripts to fit your specific needs!
+
+
+imswadhinkido37
 
