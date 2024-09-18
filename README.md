@@ -1,10 +1,6 @@
 # Kubernetes-Integration-Testing
 QA Automation Testing
 
-Here’s a professional README file for your QA task:
-
----
-
 # QA Integration Testing for Frontend and Backend Services
 
 ## Overview
@@ -89,6 +85,3 @@ During the testing process, the following was observed:
 
 The integration testing task has been successfully completed. The frontend application is correctly receiving data from the backend service, as verified by the Selenium automation tests. Further enhancements can be made by adding more test cases and edge scenarios to ensure comprehensive coverage.
 
----
-
-Feel free to modify any sections to better match your style or additional details you might want to include!
