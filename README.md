@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains a comprehensive QA testing setup for verifying the integration between a frontend and backend service. The objective of this task was to ensure that the frontend can successfully communicate with the backend, returning the expected results when the user interacts with the application.
+This repository contains a comprehensive QA testing setup for verifying the integration between a frontend and backend service, as well as tools for monitoring system health and analyzing web server logs. The objectives of this project were twofold: to ensure that the frontend can successfully communicate with the backend, returning the expected results when the user interacts with the application, and to implement scripts that monitor system performance and analyze log files to enhance the reliability and efficiency of software applications.
 
 ## Technologies Used
 
